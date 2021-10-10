@@ -6,11 +6,19 @@
 #define DEMOS_QT_APP_H
 
 #include <QMainWindow>
+#include <QListWidgetItem>
 
 class App: public QMainWindow {
     Q_OBJECT
+
 public:
     App(QWidget *parent);
+
+private:
+    QListWidget *listWidget;
+
+private:
+    void onItemClick(QListWidgetItem *item);
 };
 
 
