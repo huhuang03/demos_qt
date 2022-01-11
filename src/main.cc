@@ -4,12 +4,16 @@
 #include <QApplication>
 #include <QListWidget>
 #include "./app.h"
+#include "./demos/test_matrix/test_matrix.h"
 
 int main(int argc, char** argv) {
-    QApplication q(argc, argv);
+  testMatrix();
+  return 0;
 
-    App app(nullptr);
-    app.show();
-
-    return QApplication::exec();
+//    QApplication q(argc, argv);
+//
+//    App app(nullptr);
+//    app.show();
+//
+//    return QApplication::exec();
 }

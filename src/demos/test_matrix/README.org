@@ -1,0 +1,5 @@
+Sometimes, we need test some little function.
+
+I don't want create an new object, so put it here,
+
+You can just skip this.

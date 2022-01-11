@@ -6,23 +6,31 @@
 #define DEMOS_QT_SRC_DEMOS_DEMO_QGRAPHIC_SCENE_DEMO_Q_GRAPHIC_SCENE_H_
 
 #include <QMainWindow>
+#include <QGraphicsView>
 #include <QWidget>
+#include <QMatrix>
 
 // do the open again?
 // fu*k you!
 class DemoQGraphicScene: public QMainWindow {
  Q_OBJECT
+
  private:
-  // 每次移动多少像素
-  // 我觉得应该每次移动当前界面的百分比吧
+  // ok, can't use chinese?
   static float moveFactor;
 
-  // 0.2 差不多
-  static float scaleFactor;
+ // why can't recognize you?
+  // 0.2 is ok more or less.
+  static double scaleFactor;
 
   // why clion can't prompt initial value?
   static int width;
   static int height;
+
+ private:
+  // pass
+  QGraphicsView *graphicView;
+  QMatrix matrix;
 
  public:
   DemoQGraphicScene();

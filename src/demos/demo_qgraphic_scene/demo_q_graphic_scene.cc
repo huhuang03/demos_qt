@@ -6,8 +6,8 @@
 #include <QMenu>
 #include <QMenuBar>
 
-float DemoQGraphicScene::moveFactor = 0.1;
-float DemoQGraphicScene::scaleFactor = 0.2;
+float DemoQGraphicScene::moveFactor = 0.1f;
+double DemoQGraphicScene::scaleFactor = 0.2;
 int DemoQGraphicScene::width = 800;
 int DemoQGraphicScene::height = 600;
 
@@ -45,8 +45,8 @@ void DemoQGraphicScene::down() {
 }
 
 void DemoQGraphicScene::zoomIn() {
+//  matrix.scale();
 }
 
 void DemoQGraphicScene::zoomOut() {
-
 }

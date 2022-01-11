@@ -1,0 +1,8 @@
+//
+// Created by hwf on 2022/1/11.
+//
+
+#ifndef DEMOS_QT_SRC_DEMOS_TEST_MATRIX_TEST_MATRIX_H_
+#define DEMOS_QT_SRC_DEMOS_TEST_MATRIX_TEST_MATRIX_H_
+void testMatrix();
+#endif //DEMOS_QT_SRC_DEMOS_TEST_MATRIX_TEST_MATRIX_H_
